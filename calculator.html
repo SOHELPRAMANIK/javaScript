@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Calculator</h1>
+      <h2>Insert Your Input</h2>
+      <input type="number" id="FirstInput" placeholder="Enter First Number" />
+      <input type="number" id="SecondInput" placeholder="Enter Second Number" />
+      <h3>Choose Your Operator</h3>
+      <button id="addBtn">Add</button>
+      <button id="subtractBtn">Subtract</button>
+      <button id="multiplyBtn">Multiply</button>
+      <button id="divisionBtn">Division</button>
+      <h3>Result : <span id="result">0</span></h3>
+    </div>
+
+    <!-- ctrl + d use korle select data same name er data select hobe and use many tiome then again ctrl + d -->
+    <div id="overlay" class="overlay hidden">
+      <div id="modalBox" class="modal hidden">
+        <h1>Infinite</h1>
+        <button id="closemodalBtn">Close</button>
+      </div>
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
